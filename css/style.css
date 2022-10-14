@@ -1,0 +1,52 @@
+h1{
+    color:aqua;
+    background-color: black;
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+    border: 10px solid darkmagenta;
+    border-radius: 0px 50px;
+}
+body{
+}
+h1:hover{
+    color: white;
+    background-color:darkblue;
+    border-color:chartreuse;
+    border-radius: 50px 0px;
+}
+p{
+    font-weight: bold;
+    padding: 14px;
+    text-align: center;
+    border: 10px solid burlywood;
+    background-color: aquamarine;
+    margin:50px 10px 50px 10px;
+}
+p:hover{
+    background-color: darkblue;
+    color:white;
+    border-color: black;
+}
+/*Trabajando con links*/
+a:link{
+    color:forestgreen
+}
+a:visited{
+    color:#219ebc;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#8ecae6;
+    text-decoration: underline;
+}
+a:active{
+    color:#023047
+}
+img{
+    margin-top: 40px;
+    width: 70px;
+    height: 90px;
+}

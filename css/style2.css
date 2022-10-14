@@ -1,0 +1,23 @@
+h1{
+    color: #560bad;
+    text-align: center;
+}
+a{
+    font-weight: bold;
+    margin-top: 10px;
+}
+a:link, a:visited{
+    background-color: #b5279e;
+    color:#fff;
+    padding:15px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: inline-block;
+}
+a:hover, a:active{
+    color: #000;
+    background-color: #fff;
+    border-color: #b5279e;
+}
