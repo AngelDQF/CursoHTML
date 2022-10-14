@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+/*Hacer que la tabla abarque todo la pantalla*/
+table{
+    width: 100%;
+}
+caption{
+    font-weight: bold;
+    color:brown;
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    line-height: 40px;
+}
+table, th, td{
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    padding: 5px 5px;
+}
+td{
+    text-align: center;
+}
+th{
+    background-color: darkorchid;
+    color: #f1faee;
+    background-color: #1d3557;
+}
+td:hover{
+    background-color:aqua;
+}
+/*
+tr:nth-child(even){} => Propiedad para renglones pares
+tr:nth-child(odd){} => Propiedad para renglones impares
+*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: #a8daec;
+}

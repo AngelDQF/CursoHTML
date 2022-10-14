@@ -5,11 +5,11 @@ h1{
 a{
     font-weight: bold;
     margin-top: 10px;
+    padding: 5px 15px;
 }
 a:link, a:visited{
     background-color: #b5279e;
     color:#fff;
-    padding:15px 25px;
     text-align: center;
     text-decoration: none;
     border: 3px solid black;
