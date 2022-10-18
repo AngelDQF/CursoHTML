@@ -1,0 +1,33 @@
+/*
+*{
+    margin: 0;
+    padding:0;
+}*/
+#titulo_principal{
+    color:#f73585;
+    text-align: center;
+    margin: 15px;
+}
+h2{
+    color:#3f37c9;
+}
+p{
+    color:#457b9d;
+}
+/*Clase de CSS*/
+.tarjeta{
+    border:10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin:10px 115px;
+}
+.tarjeta2{
+    border:10px solid #f73585;
+    background-color: #f1faee;
+    text-align: center;
+    margin:10px 115px;
+}
+.titulo{
+    color:#f72585;
+    font-weight: bold;
+}
